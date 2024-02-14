@@ -1,12 +1,15 @@
 
+import { Outlet } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-    <h1 className='display-1'>Blog site</h1>
-    </div>
+   <div>
+    <Navbar/>
+    <Outlet/>
+   </div>
   );
 }
 
