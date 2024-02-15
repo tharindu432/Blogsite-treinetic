@@ -20,10 +20,11 @@ const Blogs = () => {
   const [newPost, setNewPost] = useState({
     // Initial state for new post data
     author: '',
-    date: '',
+    published_date: '',
     title: '',
     description: '',
     image: '',
+  
   });
   const [editPost, setEditPost] = useState({}); // Track edited post data
   
@@ -42,7 +43,7 @@ const Blogs = () => {
     const updatedPosts = [...posts, newPost];
     setPosts(updatedPosts);
     setShowCreateModal(false);
-    setNewPost({ ...newPost, author: '', date: '', title: '', description: '', image: '' });
+    setNewPost({ ...newPost, author: '',published_date: '', title: '', description: '', image: '' });
   };
 
   // Edit Post
@@ -95,7 +96,7 @@ const Blogs = () => {
               <Form.Control
                 type="date"
                 placeholder="Select date"
-                value={newPost.date}
+                value={newPost.published_date}
                 onChange={(e) => setNewPost({ ...newPost, date: e.target.value })}
               />
             </Form.Group>
@@ -157,7 +158,7 @@ const Blogs = () => {
               <Form.Control
                 type="date"
                 placeholder="Select date"
-                value={editPost.date}
+                value={editPost.published_date}
                 onChange={(e) => setEditPost({ ...editPost, date: e.target.value })}
               />
             </Form.Group>
@@ -205,7 +206,15 @@ const Blogs = () => {
               <Card.Img variant="top" src={post.image} />
               <Card.Body>
                 <Card.Title>{post.title}</Card.Title>
+                <Card.Text className='badge text-bg-secondary'>{post.category}</Card.Text>
                 <Card.Text>{post.description}</Card.Text>
+                <Card.Text>
+                  <small className="text-muted">{post.author}</small>
+                </Card.Text>
+
+                <Card.Text>
+                  <small className="text-muted">{post.published_date}</small>
+                </Card.Text>
                 <Button variant="primary" onClick={() => setShowEditModal(true)}>
                   Edit
                 </Button>
