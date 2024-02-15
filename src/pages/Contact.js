@@ -17,9 +17,9 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Form validation (optional, add checks as needed)
+    // Form validation 
     if (!name || !email || !message) {
-      setShowAlert(true); // Show the alert
+      setShowAlert('error'); // Show the alert
       return;
     }
 
@@ -30,10 +30,11 @@ const Contact = () => {
     setName('');
     setEmail('');
     setMessage('');
+    setShowAlert('success');
   };
 
   const handleAlertClose = () => {
-    setShowAlert(false); // Hide the alert
+    setShowAlert(''); // Hide the alert
   };
 
   return (
@@ -54,12 +55,24 @@ const Contact = () => {
         <div className="col-md-6 order-2 order-md-1">
           <h2 className="text-center mb-5 ">Get in Touch</h2>
 
-          {showAlert && ( 
-            <div className="alert alert-danger alert-dismissible fade show" role="alert">
-              <strong>Oops!</strong> Fill all the fields.
-              <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close" onClick={handleAlertClose}></button>
+          {showAlert && (
+            <div
+              className={`alert alert-${showAlert === 'success' ? 'success' : 'danger'} alert-dismissible fade show`}
+              role="alert"
+            >
+              <strong>
+                {showAlert === 'success' ? 'Success!' : 'Oops!'}
+              </strong>
+              {showAlert === 'success' ? 'Your message has been sent.' : 'Fill all the fields.'}
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+                onClick={handleAlertClose}
+              ></button>
             </div>
-          )} 
+          )}
 
 
           <form onSubmit={handleSubmit}>
