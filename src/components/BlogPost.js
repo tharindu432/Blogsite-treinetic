@@ -20,7 +20,7 @@ const BlogPost = () => {
             <p><strong>Published:</strong> {post.published_date}</p>
 
             {/* Add a button to go back */}
-            <button onClick={() => window.history.back()} className="btn btn-primary">Go Back</button>
+            <button onClick={() => window.history.back()} className="btn btn-warning">Go Back</button>
         </div>
     );
 };

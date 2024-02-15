@@ -70,7 +70,9 @@ const Blogs = () => {
   return (
     
     <Container className="mt-5 mb-1">
-      <h2>Blog Posts</h2>
+      <br></br>
+      <h2  className="display-4 fw-bold text-muted mt-6">Blog Posts</h2>
+      <br></br>
 
       {/* Create Post Button */}
       <Button variant="warning" onClick={() => setShowCreateModal(true)}>
@@ -132,6 +134,7 @@ const Blogs = () => {
                 onChange={(e) => setNewPost({ ...newPost, image: e.target.value })}
               />
             </Form.Group>
+            <br></br>
             <Button variant="primary" type="submit">
               Create
             </Button>
@@ -142,7 +145,7 @@ const Blogs = () => {
         {/* Edit Post Modal */}
       <Modal show={showEditModal} onHide={() => setShowEditModal(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Edit Post</Modal.Title>
+          <Modal.Title >Edit Post</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form onSubmit={handleEditPost}>
@@ -218,7 +221,7 @@ const Blogs = () => {
                 <Card.Text>
                   <small className="text-muted">{post.published_date}</small>
                 </Card.Text>
-                <Button variant="primary" onClick={() => setShowEditModal(true)}>
+                <Button variant="primary" onClick={() => setShowEditModal(true)} className='mr-3'>
                   Edit
                 </Button>
                 <Button variant="danger" onClick={() => handleDeletePost(post.id)}>
