@@ -18,7 +18,7 @@ const Home = () => {
               core purpose and value proposition. Use captivating language to
               capture the user's attention.
             </p>
-            <a href="#learn-more" className="btn btn-warning btn-lg">Learn More</a>
+            <a href="https://www.fiverr.com/webdoctor_labs" className="btn btn-warning btn-lg">Learn More</a>
           </Col>
           {/* Right column: Lottie animation */}
           <Col md={5} className="d-flex justify-content-center">
