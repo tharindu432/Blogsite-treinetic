@@ -7,6 +7,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaDribbble } from 'react
 
 
 import { RiSearchLine } from 'react-icons/ri'; 
+import Home from '../pages/Home';
 
 const NavBar = () => {
   return (
@@ -14,7 +15,7 @@ const NavBar = () => {
       <Container>
        
         <Navbar.Brand as={Link} to="/">
-          <span className="text-warning ms-md-3 fs-3">T-Blog</span>
+          <span className="text-white ms-md-3 fs-3"><span className='text-warning'>T</span>-Blog</span>
         </Navbar.Brand>
 
      
@@ -47,7 +48,7 @@ const NavBar = () => {
             <FormControl
               type="search"
               placeholder="Search"
-              className="me-2"
+              className="me-2 d-flex ms-auto col-4"
               aria-label="Search"
             />
             <Button variant="outline-warning">
