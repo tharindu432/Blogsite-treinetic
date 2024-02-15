@@ -6,6 +6,9 @@ import Lottie from 'react-lottie';
 
 //import team member card
 import TeamMemberCard from '../components/TeamMemberCard';
+
+//teame member images
+import member1 from '../assets/about.png'
  
 
 const About = () => {
@@ -34,21 +37,30 @@ const About = () => {
             <TeamMemberCard
               name="John Doe"
               title="CEO"
-              image="https://randomuser.me/api/portraits"
+              image={member1}
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Integer nec odio praesent libero mollis interdum blandit eget dolor."
             />
             <TeamMemberCard
               name="Jane Doe"
               title="CTO"
-              image="https://randomuser.me/api/portraits"
+              image={member1}
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Integer nec odio praesent libero mollis interdum blandit eget dolor."
             />
+
+          
             <TeamMemberCard
               name="John Smith"
               title="COO"
-              image="https://randomuser.me/api/portraits"
+              image={member1}
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Integer nec odio praesent libero mollis interdum blandit eget dolor."
             />
+            <TeamMemberCard
+              name="Jane Smith"
+              title="CFO"
+              image={member1}
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Integer nec odio praesent libero mollis interdum blandit eget dolor."
+            />
+
 
       
         </div>
