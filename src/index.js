@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.js';
 
+
 import { createBrowserRouter,RouterProvider }  from 'react-router-dom';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Blogs from './pages/Blogs.js';
 import Contact from './pages/Contact.js';
+import BlogPost from './components/BlogPost.js';
 
 
 

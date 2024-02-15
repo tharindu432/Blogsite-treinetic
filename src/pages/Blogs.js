@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+
+import { Link } from 'react-router-dom';
 //importing the data from the json file
 import BlogData from '../assets/BlogData.json';
 
