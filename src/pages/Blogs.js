@@ -208,6 +208,7 @@ const Blogs = () => {
                 <Card.Title>{post.title}</Card.Title>
                 <Card.Text className='badge text-bg-secondary'>{post.category}</Card.Text>
                 <Card.Text>{post.description}</Card.Text>
+                <Link to={`/blog/${post.id}`}>Read More</Link>
                 <Card.Text>
                   <small className="text-muted">{post.author}</small>
                 </Card.Text>
