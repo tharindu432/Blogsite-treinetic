@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
 
         <div className="col-md-6 order-2 order-md-1">
-          <h2 className="text-center mb-5 ">Get in Touch</h2>
+          <h2 className="display-4 fw-bold text-muted">Get in Touch</h2>
 
           {showAlert && (
             <div

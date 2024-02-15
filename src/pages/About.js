@@ -22,7 +22,7 @@ const About = () => {
       <br></br>
       <div className="row row-cols-1 row-cols-md-2 g-4 align-items-center min-vh-100">
         <div className="col">
-          <h1 className="display-4 fw-bold">About Us</h1>
+          <h1 className="display-4 fw-bold text-muted">About Us</h1>
           <p className="lead">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Integer nec odio praesent libero mollis interdum blandit eget dolor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor magna. Suspendisse potenti. Praesent sapien massa, convallis a pharetra at, molestie nec lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor magna. Suspendisse potenti. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent sapien massa, convallis a pharetra at, molestie nec lacus. Duis mollis, est quis tristique posuere, tortor dolor tempor magna, eget eleifend dui nunc laoreet metus. Phasellus egestas tellus semper laoreet mattis.
           </p>
@@ -38,7 +38,7 @@ const About = () => {
         </div>
         </div>
         <div>
-        <h1 className="display-4 fw-bold">Our Team</h1>
+        <h1 className="display-4 fw-bold text-muted">Our Team</h1>
         </div>
 
         
