@@ -18,7 +18,7 @@ import member5 from '../assets/member5.jpg'
 const About = () => {
   const animationData = require('../assets/about.json'); 
   return (
-    <div className="container-fluid px-5 pt-5 pb-3 bg-dark text-white">
+    <div className="container-fluid px-5 pt-3 pb-1  text-dark">
       <br></br>
       <div className="row row-cols-1 row-cols-md-2 g-4 align-items-center min-vh-100">
         <div className="col">

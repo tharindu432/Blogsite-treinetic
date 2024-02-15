@@ -39,7 +39,7 @@ const Contact = () => {
 
   return (
   
-    <div className="container mt-5  ">
+    <div className="container mt-5 bold  ">
       <br></br>
       <br>
       </br>
@@ -113,7 +113,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <button type="submit" className="btn btn-warning">
-              Send Message
+              Send
             </button>
           </form>
         </div>
