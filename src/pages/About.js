@@ -29,7 +29,7 @@ const About = () => {
           <div>
 
           </div>
-          <a href="#" className="btn btn-warning btn-lg mt-4 shadow-lg">Learn More</a>
+          <a href="https://chathurangarp.tech/" className="btn btn-warning btn-lg mt-4 shadow-lg">Learn More</a>
         </div>
         <div className="col d-none d-md-block">
           {/* <img src={AboutUs} alt="About Us Image" className="img-fluid rounded-start shadow-lg" /> */}
@@ -38,7 +38,7 @@ const About = () => {
         </div>
         </div>
         <div>
-        <h1 className="display-3 fw-bold">Our Team</h1>
+        <h1 className="display-4 fw-bold">Our Team</h1>
         </div>
 
         
