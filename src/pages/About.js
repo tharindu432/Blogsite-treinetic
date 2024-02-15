@@ -24,12 +24,12 @@ const About = () => {
         <div className="col">
           <h1 className="display-4 fw-bold text-muted">About Us</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Integer nec odio praesent libero mollis interdum blandit eget dolor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor magna. Suspendisse potenti. Praesent sapien massa, convallis a pharetra at, molestie nec lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor magna. Suspendisse potenti. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent sapien massa, convallis a pharetra at, molestie nec lacus. Duis mollis, est quis tristique posuere, tortor dolor tempor magna, eget eleifend dui nunc laoreet metus. Phasellus egestas tellus semper laoreet mattis.
+          Welcome to T-Blog, a haven where the power of storytelling intertwines with the art of expression. We curate a tapestry of thoughts, connecting passionate writers and curious souls in a harmonious blend of inspiration. Within our vibrant community, creativity blossoms and ideas flourish, shaping the world one article at a time. At T-Blog, we believe in the extraordinary, where each carefully crafted piece becomes a brushstroke of knowledge, painting a brighter tomorrow. Here, diverse perspectives converge, sparking thought-provoking conversations that transcend boundaries and ignite change. Unleash your imagination in this realm of endless possibilities, where the written word dances, whispering tales of discovery and inviting you to embark on a journey of self-expression and connection. Welcome to T-Blog, where stories come alive.
           </p>
           <div>
 
           </div>
-          <a href="https://chathurangarp.tech/" className="btn btn-warning btn-lg mt-4 shadow-lg">Learn More</a>
+          <a href="https://www.fiverr.com/webdoctor_labs" className="btn btn-warning btn-lg mt-4 shadow-lg">Learn More</a>
         </div>
         <div className="col d-none d-md-block">
           {/* <img src={AboutUs} alt="About Us Image" className="img-fluid rounded-start shadow-lg" /> */}

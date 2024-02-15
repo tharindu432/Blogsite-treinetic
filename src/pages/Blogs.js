@@ -135,7 +135,7 @@ const Blogs = () => {
               />
             </Form.Group>
             <br></br>
-            <Button variant="primary" type="submit">
+            <Button variant="warning" type="submit">
               Create
             </Button>
           </Form>

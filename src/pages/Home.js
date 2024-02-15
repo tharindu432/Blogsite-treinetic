@@ -14,9 +14,9 @@ const Home = () => {
           <Col md={7} className="d-flex flex-column justify-content-center gap-5">
             <h1 className="display-4 fw-bold text-muted ">Welcome to the <span className='text-warning'>T</span>-Blog</h1>
             <p className="lead pb-4">
-              A compelling description of your website, briefly summarizing its
-              core purpose and value proposition. Use captivating language to
-              capture the user's attention.
+            Welcome to T-Blog, the digital sanctuary where stories unfold. Immerse yourself in a world of captivating narratives, insightful articles, and thought-provoking
+             discussions. From technology to arts, culture to personal growth, T-Blog offers a diverse tapestry of content to satisfy your curiosity. Join our vibrant community, where your voice matters 
+            and your ideas find a home. Discover inspiration, broaden your horizons, and embark on a journey of knowledge and connection at T-Blog.
             </p>
             <a href="https://www.fiverr.com/webdoctor_labs" className="btn btn-warning btn-lg">Learn More</a>
           </Col>
